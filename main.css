@@ -1,0 +1,35 @@
+/* Basit Css Yapısı */
+/* Yorum Satırı */
+
+/* Etiket Seçici */
+body{
+    background-color: #EEEEEE;
+}
+
+/* ID Seçici */
+#card {
+    background-color: rgba(100, 253, 86, 0.466);
+    border: 2px solid rgb(251, 255, 0);
+    padding: 10px;
+}
+
+/* Class Seçici */
+.yazi {
+    background-color: rgb(245, 246, 248);
+    padding: 1px 10px;
+    border-radius: 10px;
+}
+
+/* Alt Seçici */
+.yazi > h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+/* Alternatif Alt Seçici */
+.yazi p {
+    color:red;
+}
+/* Group halinde seçici kullanmak */
+#card, .yazi, a {
+    color: black;
+}
